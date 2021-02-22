@@ -53,7 +53,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/nextPermutaton.dir/DependInfo.cmake"
   "CMakeFiles/DailyCodingProblem.dir/DependInfo.cmake"
-  "CMakeFiles/CanReachEnd.dir/DependInfo.cmake"
   "CMakeFiles/sortedSquares.dir/DependInfo.cmake"
+  "CMakeFiles/minAndMax.dir/DependInfo.cmake"
+  "CMakeFiles/isSubtree.dir/DependInfo.cmake"
+  "CMakeFiles/TowerOfHanoi.dir/DependInfo.cmake"
   )

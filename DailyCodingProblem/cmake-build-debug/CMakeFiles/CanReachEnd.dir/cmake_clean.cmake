@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CanReachEnd.dir/TowerOfHanoi.cpp.obj"
   "CMakeFiles/CanReachEnd.dir/canReachEnd.cpp.obj"
+  "CMakeFiles/CanReachEnd.dir/nextPermutaton.cpp.obj"
   "CanReachEnd.exe"
   "CanReachEnd.exe.manifest"
   "CanReachEnd.pdb"

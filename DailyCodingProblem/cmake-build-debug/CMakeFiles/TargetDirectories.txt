@@ -1,5 +1,8 @@
+C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/nextPermutaton.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir
-C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/CanReachEnd.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/sortedSquares.dir
+C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/minAndMax.dir
+C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/isSubtree.dir
+C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/TowerOfHanoi.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/edit_cache.dir

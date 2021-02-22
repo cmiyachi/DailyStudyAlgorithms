@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/isSubtree.cpp
+bits/stdc++.h
+-
+

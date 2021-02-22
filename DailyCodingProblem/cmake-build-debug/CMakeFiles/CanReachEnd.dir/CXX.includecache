@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/canReachEnd.cpp
+C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/TowerOfHanoi.cpp
+bits/stdc++.h
+-
+
+C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/nextPermutaton.cpp
 bits/stdc++.h
 -
 

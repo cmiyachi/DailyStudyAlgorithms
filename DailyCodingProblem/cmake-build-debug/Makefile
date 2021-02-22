@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named nextPermutaton
+
+# Build rule for target.
+nextPermutaton: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 nextPermutaton
+.PHONY : nextPermutaton
+
+# fast build rule for target.
+nextPermutaton/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nextPermutaton.dir\build.make CMakeFiles/nextPermutaton.dir/build
+.PHONY : nextPermutaton/fast
+
+#=============================================================================
 # Target rules for targets named DailyCodingProblem
 
 # Build rule for target.
@@ -141,19 +154,6 @@ DailyCodingProblem: cmake_check_build_system
 DailyCodingProblem/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/build
 .PHONY : DailyCodingProblem/fast
-
-#=============================================================================
-# Target rules for targets named CanReachEnd
-
-# Build rule for target.
-CanReachEnd: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CanReachEnd
-.PHONY : CanReachEnd
-
-# fast build rule for target.
-CanReachEnd/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CanReachEnd.dir\build.make CMakeFiles/CanReachEnd.dir/build
-.PHONY : CanReachEnd/fast
 
 #=============================================================================
 # Target rules for targets named sortedSquares
@@ -168,32 +168,98 @@ sortedSquares/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortedSquares.dir\build.make CMakeFiles/sortedSquares.dir/build
 .PHONY : sortedSquares/fast
 
-canReachEnd.obj: canReachEnd.cpp.obj
+#=============================================================================
+# Target rules for targets named minAndMax
 
-.PHONY : canReachEnd.obj
+# Build rule for target.
+minAndMax: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 minAndMax
+.PHONY : minAndMax
+
+# fast build rule for target.
+minAndMax/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minAndMax.dir\build.make CMakeFiles/minAndMax.dir/build
+.PHONY : minAndMax/fast
+
+#=============================================================================
+# Target rules for targets named isSubtree
+
+# Build rule for target.
+isSubtree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 isSubtree
+.PHONY : isSubtree
+
+# fast build rule for target.
+isSubtree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSubtree.dir\build.make CMakeFiles/isSubtree.dir/build
+.PHONY : isSubtree/fast
+
+#=============================================================================
+# Target rules for targets named TowerOfHanoi
+
+# Build rule for target.
+TowerOfHanoi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TowerOfHanoi
+.PHONY : TowerOfHanoi
+
+# fast build rule for target.
+TowerOfHanoi/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TowerOfHanoi.dir\build.make CMakeFiles/TowerOfHanoi.dir/build
+.PHONY : TowerOfHanoi/fast
+
+TowerOfHanoi.obj: TowerOfHanoi.cpp.obj
+
+.PHONY : TowerOfHanoi.obj
 
 # target to build an object file
-canReachEnd.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CanReachEnd.dir\build.make CMakeFiles/CanReachEnd.dir/canReachEnd.cpp.obj
-.PHONY : canReachEnd.cpp.obj
+TowerOfHanoi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TowerOfHanoi.dir\build.make CMakeFiles/TowerOfHanoi.dir/TowerOfHanoi.cpp.obj
+.PHONY : TowerOfHanoi.cpp.obj
 
-canReachEnd.i: canReachEnd.cpp.i
+TowerOfHanoi.i: TowerOfHanoi.cpp.i
 
-.PHONY : canReachEnd.i
+.PHONY : TowerOfHanoi.i
 
 # target to preprocess a source file
-canReachEnd.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CanReachEnd.dir\build.make CMakeFiles/CanReachEnd.dir/canReachEnd.cpp.i
-.PHONY : canReachEnd.cpp.i
+TowerOfHanoi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TowerOfHanoi.dir\build.make CMakeFiles/TowerOfHanoi.dir/TowerOfHanoi.cpp.i
+.PHONY : TowerOfHanoi.cpp.i
 
-canReachEnd.s: canReachEnd.cpp.s
+TowerOfHanoi.s: TowerOfHanoi.cpp.s
 
-.PHONY : canReachEnd.s
+.PHONY : TowerOfHanoi.s
 
 # target to generate assembly for a file
-canReachEnd.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CanReachEnd.dir\build.make CMakeFiles/CanReachEnd.dir/canReachEnd.cpp.s
-.PHONY : canReachEnd.cpp.s
+TowerOfHanoi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TowerOfHanoi.dir\build.make CMakeFiles/TowerOfHanoi.dir/TowerOfHanoi.cpp.s
+.PHONY : TowerOfHanoi.cpp.s
+
+isSubtree.obj: isSubtree.cpp.obj
+
+.PHONY : isSubtree.obj
+
+# target to build an object file
+isSubtree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSubtree.dir\build.make CMakeFiles/isSubtree.dir/isSubtree.cpp.obj
+.PHONY : isSubtree.cpp.obj
+
+isSubtree.i: isSubtree.cpp.i
+
+.PHONY : isSubtree.i
+
+# target to preprocess a source file
+isSubtree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSubtree.dir\build.make CMakeFiles/isSubtree.dir/isSubtree.cpp.i
+.PHONY : isSubtree.cpp.i
+
+isSubtree.s: isSubtree.cpp.s
+
+.PHONY : isSubtree.s
+
+# target to generate assembly for a file
+isSubtree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSubtree.dir\build.make CMakeFiles/isSubtree.dir/isSubtree.cpp.s
+.PHONY : isSubtree.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -221,6 +287,60 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+minAndMax.obj: minAndMax.cpp.obj
+
+.PHONY : minAndMax.obj
+
+# target to build an object file
+minAndMax.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minAndMax.dir\build.make CMakeFiles/minAndMax.dir/minAndMax.cpp.obj
+.PHONY : minAndMax.cpp.obj
+
+minAndMax.i: minAndMax.cpp.i
+
+.PHONY : minAndMax.i
+
+# target to preprocess a source file
+minAndMax.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minAndMax.dir\build.make CMakeFiles/minAndMax.dir/minAndMax.cpp.i
+.PHONY : minAndMax.cpp.i
+
+minAndMax.s: minAndMax.cpp.s
+
+.PHONY : minAndMax.s
+
+# target to generate assembly for a file
+minAndMax.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minAndMax.dir\build.make CMakeFiles/minAndMax.dir/minAndMax.cpp.s
+.PHONY : minAndMax.cpp.s
+
+nextPermutaton.obj: nextPermutaton.cpp.obj
+
+.PHONY : nextPermutaton.obj
+
+# target to build an object file
+nextPermutaton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nextPermutaton.dir\build.make CMakeFiles/nextPermutaton.dir/nextPermutaton.cpp.obj
+.PHONY : nextPermutaton.cpp.obj
+
+nextPermutaton.i: nextPermutaton.cpp.i
+
+.PHONY : nextPermutaton.i
+
+# target to preprocess a source file
+nextPermutaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nextPermutaton.dir\build.make CMakeFiles/nextPermutaton.dir/nextPermutaton.cpp.i
+.PHONY : nextPermutaton.cpp.i
+
+nextPermutaton.s: nextPermutaton.cpp.s
+
+.PHONY : nextPermutaton.s
+
+# target to generate assembly for a file
+nextPermutaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nextPermutaton.dir\build.make CMakeFiles/nextPermutaton.dir/nextPermutaton.cpp.s
+.PHONY : nextPermutaton.cpp.s
 
 sortedSquares.obj: sortedSquares.cpp.obj
 
@@ -257,15 +377,27 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... CanReachEnd
 	@echo ... DailyCodingProblem
+	@echo ... TowerOfHanoi
+	@echo ... isSubtree
+	@echo ... minAndMax
+	@echo ... nextPermutaton
 	@echo ... sortedSquares
-	@echo ... canReachEnd.obj
-	@echo ... canReachEnd.i
-	@echo ... canReachEnd.s
+	@echo ... TowerOfHanoi.obj
+	@echo ... TowerOfHanoi.i
+	@echo ... TowerOfHanoi.s
+	@echo ... isSubtree.obj
+	@echo ... isSubtree.i
+	@echo ... isSubtree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... minAndMax.obj
+	@echo ... minAndMax.i
+	@echo ... minAndMax.s
+	@echo ... nextPermutaton.obj
+	@echo ... nextPermutaton.i
+	@echo ... nextPermutaton.s
 	@echo ... sortedSquares.obj
 	@echo ... sortedSquares.i
 	@echo ... sortedSquares.s

@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/TowerOfHanoi.cpp" "C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/CanReachEnd.dir/TowerOfHanoi.cpp.obj"
   "C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/canReachEnd.cpp" "C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/CanReachEnd.dir/canReachEnd.cpp.obj"
+  "C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/nextPermutaton.cpp" "C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/CanReachEnd.dir/nextPermutaton.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
