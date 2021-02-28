@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -206,6 +206,19 @@ TowerOfHanoi: cmake_check_build_system
 TowerOfHanoi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TowerOfHanoi.dir\build.make CMakeFiles/TowerOfHanoi.dir/build
 .PHONY : TowerOfHanoi/fast
+
+#=============================================================================
+# Target rules for targets named reachNumber
+
+# Build rule for target.
+reachNumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 reachNumber
+.PHONY : reachNumber
+
+# fast build rule for target.
+reachNumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\reachNumber.dir\build.make CMakeFiles/reachNumber.dir/build
+.PHONY : reachNumber/fast
 
 TowerOfHanoi.obj: TowerOfHanoi.cpp.obj
 
@@ -342,6 +355,36 @@ nextPermutaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nextPermutaton.dir\build.make CMakeFiles/nextPermutaton.dir/nextPermutaton.cpp.s
 .PHONY : nextPermutaton.cpp.s
 
+reachNumber.obj: reachNumber.cpp.obj
+
+.PHONY : reachNumber.obj
+
+# target to build an object file
+reachNumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\reachNumber.dir\build.make CMakeFiles/reachNumber.dir/reachNumber.cpp.obj
+.PHONY : reachNumber.cpp.obj
+
+reachNumber.i: reachNumber.cpp.i
+
+.PHONY : reachNumber.i
+
+# target to preprocess a source file
+reachNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\reachNumber.dir\build.make CMakeFiles/reachNumber.dir/reachNumber.cpp.i
+.PHONY : reachNumber.cpp.i
+
+reachNumber.s: reachNumber.cpp.s
+
+.PHONY : reachNumber.s
+
+# target to generate assembly for a file
+reachNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\reachNumber.dir\build.make CMakeFiles/reachNumber.dir/reachNumber.cpp.s
+.PHONY : reachNumber.cpp.s
+
 sortedSquares.obj: sortedSquares.cpp.obj
 
 .PHONY : sortedSquares.obj
@@ -382,6 +425,7 @@ help:
 	@echo ... isSubtree
 	@echo ... minAndMax
 	@echo ... nextPermutaton
+	@echo ... reachNumber
 	@echo ... sortedSquares
 	@echo ... TowerOfHanoi.obj
 	@echo ... TowerOfHanoi.i
@@ -398,6 +442,9 @@ help:
 	@echo ... nextPermutaton.obj
 	@echo ... nextPermutaton.i
 	@echo ... nextPermutaton.s
+	@echo ... reachNumber.obj
+	@echo ... reachNumber.i
+	@echo ... reachNumber.s
 	@echo ... sortedSquares.obj
 	@echo ... sortedSquares.i
 	@echo ... sortedSquares.s

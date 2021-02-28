@@ -78,6 +78,7 @@ all: CMakeFiles/sortedSquares.dir/all
 all: CMakeFiles/minAndMax.dir/all
 all: CMakeFiles/isSubtree.dir/all
 all: CMakeFiles/TowerOfHanoi.dir/all
+all: CMakeFiles/reachNumber.dir/all
 
 .PHONY : all
 
@@ -93,6 +94,7 @@ clean: CMakeFiles/sortedSquares.dir/clean
 clean: CMakeFiles/minAndMax.dir/clean
 clean: CMakeFiles/isSubtree.dir/clean
 clean: CMakeFiles/TowerOfHanoi.dir/clean
+clean: CMakeFiles/reachNumber.dir/clean
 
 .PHONY : clean
 
@@ -103,7 +105,7 @@ clean: CMakeFiles/TowerOfHanoi.dir/clean
 CMakeFiles/nextPermutaton.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nextPermutaton.dir\build.make CMakeFiles/nextPermutaton.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nextPermutaton.dir\build.make CMakeFiles/nextPermutaton.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target nextPermutaton"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target nextPermutaton"
 .PHONY : CMakeFiles/nextPermutaton.dir/all
 
 # Build rule for subdir invocation for target.
@@ -130,12 +132,12 @@ CMakeFiles/nextPermutaton.dir/clean:
 CMakeFiles/DailyCodingProblem.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target DailyCodingProblem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target DailyCodingProblem"
 .PHONY : CMakeFiles/DailyCodingProblem.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DailyCodingProblem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DailyCodingProblem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/DailyCodingProblem.dir/rule
@@ -157,7 +159,7 @@ CMakeFiles/DailyCodingProblem.dir/clean:
 CMakeFiles/sortedSquares.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortedSquares.dir\build.make CMakeFiles/sortedSquares.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortedSquares.dir\build.make CMakeFiles/sortedSquares.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target sortedSquares"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target sortedSquares"
 .PHONY : CMakeFiles/sortedSquares.dir/all
 
 # Build rule for subdir invocation for target.
@@ -184,7 +186,7 @@ CMakeFiles/sortedSquares.dir/clean:
 CMakeFiles/minAndMax.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\minAndMax.dir\build.make CMakeFiles/minAndMax.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\minAndMax.dir\build.make CMakeFiles/minAndMax.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target minAndMax"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target minAndMax"
 .PHONY : CMakeFiles/minAndMax.dir/all
 
 # Build rule for subdir invocation for target.
@@ -211,7 +213,7 @@ CMakeFiles/minAndMax.dir/clean:
 CMakeFiles/isSubtree.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSubtree.dir\build.make CMakeFiles/isSubtree.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSubtree.dir\build.make CMakeFiles/isSubtree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target isSubtree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target isSubtree"
 .PHONY : CMakeFiles/isSubtree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -238,7 +240,7 @@ CMakeFiles/isSubtree.dir/clean:
 CMakeFiles/TowerOfHanoi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TowerOfHanoi.dir\build.make CMakeFiles/TowerOfHanoi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TowerOfHanoi.dir\build.make CMakeFiles/TowerOfHanoi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target TowerOfHanoi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target TowerOfHanoi"
 .PHONY : CMakeFiles/TowerOfHanoi.dir/all
 
 # Build rule for subdir invocation for target.
@@ -257,6 +259,33 @@ TowerOfHanoi: CMakeFiles/TowerOfHanoi.dir/rule
 CMakeFiles/TowerOfHanoi.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TowerOfHanoi.dir\build.make CMakeFiles/TowerOfHanoi.dir/clean
 .PHONY : CMakeFiles/TowerOfHanoi.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/reachNumber.dir
+
+# All Build rule for target.
+CMakeFiles/reachNumber.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\reachNumber.dir\build.make CMakeFiles/reachNumber.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\reachNumber.dir\build.make CMakeFiles/reachNumber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target reachNumber"
+.PHONY : CMakeFiles/reachNumber.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/reachNumber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/reachNumber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/reachNumber.dir/rule
+
+# Convenience name for target.
+reachNumber: CMakeFiles/reachNumber.dir/rule
+
+.PHONY : reachNumber
+
+# clean rule for target.
+CMakeFiles/reachNumber.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\reachNumber.dir\build.make CMakeFiles/reachNumber.dir/clean
+.PHONY : CMakeFiles/reachNumber.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
