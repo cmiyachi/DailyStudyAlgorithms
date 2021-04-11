@@ -182,6 +182,19 @@ minAndMax/fast:
 .PHONY : minAndMax/fast
 
 #=============================================================================
+# Target rules for targets named findDeepestBT
+
+# Build rule for target.
+findDeepestBT: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 findDeepestBT
+.PHONY : findDeepestBT
+
+# fast build rule for target.
+findDeepestBT/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findDeepestBT.dir\build.make CMakeFiles/findDeepestBT.dir/build
+.PHONY : findDeepestBT/fast
+
+#=============================================================================
 # Target rules for targets named isSubtree
 
 # Build rule for target.
@@ -220,6 +233,32 @@ reachNumber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reachNumber.dir\build.make CMakeFiles/reachNumber.dir/build
 .PHONY : reachNumber/fast
 
+#=============================================================================
+# Target rules for targets named findDeepestBTLeft
+
+# Build rule for target.
+findDeepestBTLeft: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 findDeepestBTLeft
+.PHONY : findDeepestBTLeft
+
+# fast build rule for target.
+findDeepestBTLeft/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findDeepestBTLeft.dir\build.make CMakeFiles/findDeepestBTLeft.dir/build
+.PHONY : findDeepestBTLeft/fast
+
+#=============================================================================
+# Target rules for targets named longestPathWeightTree
+
+# Build rule for target.
+longestPathWeightTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 longestPathWeightTree
+.PHONY : longestPathWeightTree
+
+# fast build rule for target.
+longestPathWeightTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPathWeightTree.dir\build.make CMakeFiles/longestPathWeightTree.dir/build
+.PHONY : longestPathWeightTree/fast
+
 TowerOfHanoi.obj: TowerOfHanoi.cpp.obj
 
 .PHONY : TowerOfHanoi.obj
@@ -247,6 +286,63 @@ TowerOfHanoi.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TowerOfHanoi.dir\build.make CMakeFiles/TowerOfHanoi.dir/TowerOfHanoi.cpp.s
 .PHONY : TowerOfHanoi.cpp.s
 
+findDeepestBT.obj: findDeepestBT.cpp.obj
+
+.PHONY : findDeepestBT.obj
+
+# target to build an object file
+findDeepestBT.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findDeepestBT.dir\build.make CMakeFiles/findDeepestBT.dir/findDeepestBT.cpp.obj
+.PHONY : findDeepestBT.cpp.obj
+
+findDeepestBT.i: findDeepestBT.cpp.i
+
+.PHONY : findDeepestBT.i
+
+# target to preprocess a source file
+findDeepestBT.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findDeepestBT.dir\build.make CMakeFiles/findDeepestBT.dir/findDeepestBT.cpp.i
+.PHONY : findDeepestBT.cpp.i
+
+findDeepestBT.s: findDeepestBT.cpp.s
+
+.PHONY : findDeepestBT.s
+
+# target to generate assembly for a file
+findDeepestBT.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findDeepestBT.dir\build.make CMakeFiles/findDeepestBT.dir/findDeepestBT.cpp.s
+.PHONY : findDeepestBT.cpp.s
+
+findDeepestBTLeft.obj: findDeepestBTLeft.cpp.obj
+
+.PHONY : findDeepestBTLeft.obj
+
+# target to build an object file
+findDeepestBTLeft.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findDeepestBTLeft.dir\build.make CMakeFiles/findDeepestBTLeft.dir/findDeepestBTLeft.cpp.obj
+.PHONY : findDeepestBTLeft.cpp.obj
+
+findDeepestBTLeft.i: findDeepestBTLeft.cpp.i
+
+.PHONY : findDeepestBTLeft.i
+
+# target to preprocess a source file
+findDeepestBTLeft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findDeepestBTLeft.dir\build.make CMakeFiles/findDeepestBTLeft.dir/findDeepestBTLeft.cpp.i
+.PHONY : findDeepestBTLeft.cpp.i
+
+findDeepestBTLeft.s: findDeepestBTLeft.cpp.s
+
+.PHONY : findDeepestBTLeft.s
+
+# target to generate assembly for a file
+findDeepestBTLeft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findDeepestBTLeft.dir\build.make CMakeFiles/findDeepestBTLeft.dir/findDeepestBTLeft.cpp.s
+.PHONY : findDeepestBTLeft.cpp.s
+
 isSubtree.obj: isSubtree.cpp.obj
 
 .PHONY : isSubtree.obj
@@ -273,6 +369,36 @@ isSubtree.s: isSubtree.cpp.s
 isSubtree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSubtree.dir\build.make CMakeFiles/isSubtree.dir/isSubtree.cpp.s
 .PHONY : isSubtree.cpp.s
+
+longestPathWeightTree.obj: longestPathWeightTree.cpp.obj
+
+.PHONY : longestPathWeightTree.obj
+
+# target to build an object file
+longestPathWeightTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/longestPathWeightTree.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPathWeightTree.dir\build.make CMakeFiles/longestPathWeightTree.dir/longestPathWeightTree.cpp.obj
+.PHONY : longestPathWeightTree.cpp.obj
+
+longestPathWeightTree.i: longestPathWeightTree.cpp.i
+
+.PHONY : longestPathWeightTree.i
+
+# target to preprocess a source file
+longestPathWeightTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/longestPathWeightTree.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPathWeightTree.dir\build.make CMakeFiles/longestPathWeightTree.dir/longestPathWeightTree.cpp.i
+.PHONY : longestPathWeightTree.cpp.i
+
+longestPathWeightTree.s: longestPathWeightTree.cpp.s
+
+.PHONY : longestPathWeightTree.s
+
+# target to generate assembly for a file
+longestPathWeightTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/longestPathWeightTree.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPathWeightTree.dir\build.make CMakeFiles/longestPathWeightTree.dir/longestPathWeightTree.cpp.s
+.PHONY : longestPathWeightTree.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -361,7 +487,6 @@ reachNumber.obj: reachNumber.cpp.obj
 
 # target to build an object file
 reachNumber.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reachNumber.dir\build.make CMakeFiles/reachNumber.dir/reachNumber.cpp.obj
 .PHONY : reachNumber.cpp.obj
 
@@ -371,7 +496,6 @@ reachNumber.i: reachNumber.cpp.i
 
 # target to preprocess a source file
 reachNumber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reachNumber.dir\build.make CMakeFiles/reachNumber.dir/reachNumber.cpp.i
 .PHONY : reachNumber.cpp.i
 
@@ -381,7 +505,6 @@ reachNumber.s: reachNumber.cpp.s
 
 # target to generate assembly for a file
 reachNumber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reachNumber.dir\build.make CMakeFiles/reachNumber.dir/reachNumber.cpp.s
 .PHONY : reachNumber.cpp.s
 
@@ -422,7 +545,10 @@ help:
 	@echo ... rebuild_cache
 	@echo ... DailyCodingProblem
 	@echo ... TowerOfHanoi
+	@echo ... findDeepestBT
+	@echo ... findDeepestBTLeft
 	@echo ... isSubtree
+	@echo ... longestPathWeightTree
 	@echo ... minAndMax
 	@echo ... nextPermutaton
 	@echo ... reachNumber
@@ -430,9 +556,18 @@ help:
 	@echo ... TowerOfHanoi.obj
 	@echo ... TowerOfHanoi.i
 	@echo ... TowerOfHanoi.s
+	@echo ... findDeepestBT.obj
+	@echo ... findDeepestBT.i
+	@echo ... findDeepestBT.s
+	@echo ... findDeepestBTLeft.obj
+	@echo ... findDeepestBTLeft.i
+	@echo ... findDeepestBTLeft.s
 	@echo ... isSubtree.obj
 	@echo ... isSubtree.i
 	@echo ... isSubtree.s
+	@echo ... longestPathWeightTree.obj
+	@echo ... longestPathWeightTree.i
+	@echo ... longestPathWeightTree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

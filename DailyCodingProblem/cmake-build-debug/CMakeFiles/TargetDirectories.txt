@@ -2,8 +2,11 @@ C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/DailyCodingProblem.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/sortedSquares.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/minAndMax.dir
+C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/findDeepestBT.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/isSubtree.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/TowerOfHanoi.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/reachNumber.dir
+C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/findDeepestBTLeft.dir
+C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/longestPathWeightTree.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/rebuild_cache.dir

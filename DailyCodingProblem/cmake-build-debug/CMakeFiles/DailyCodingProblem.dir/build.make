@@ -89,34 +89,49 @@ CMakeFiles/DailyCodingProblem.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DailyCodingProblem.dir/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\main.cpp -o CMakeFiles\DailyCodingProblem.dir\main.cpp.s
 
-CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.obj: CMakeFiles/DailyCodingProblem.dir/flags.make
-CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.obj: ../reachNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DailyCodingProblem.dir\reachNumber.cpp.obj -c C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\reachNumber.cpp
+CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.obj: CMakeFiles/DailyCodingProblem.dir/flags.make
+CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.obj: ../findDeepestBTLeft.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DailyCodingProblem.dir\findDeepestBTLeft.cpp.obj -c C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\findDeepestBTLeft.cpp
 
-CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\reachNumber.cpp > CMakeFiles\DailyCodingProblem.dir\reachNumber.cpp.i
+CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\findDeepestBTLeft.cpp > CMakeFiles\DailyCodingProblem.dir\findDeepestBTLeft.cpp.i
 
-CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\reachNumber.cpp -o CMakeFiles\DailyCodingProblem.dir\reachNumber.cpp.s
+CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\findDeepestBTLeft.cpp -o CMakeFiles\DailyCodingProblem.dir\findDeepestBTLeft.cpp.s
+
+CMakeFiles/DailyCodingProblem.dir/longestPathWeightTree.cpp.obj: CMakeFiles/DailyCodingProblem.dir/flags.make
+CMakeFiles/DailyCodingProblem.dir/longestPathWeightTree.cpp.obj: ../longestPathWeightTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DailyCodingProblem.dir/longestPathWeightTree.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DailyCodingProblem.dir\longestPathWeightTree.cpp.obj -c C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\longestPathWeightTree.cpp
+
+CMakeFiles/DailyCodingProblem.dir/longestPathWeightTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DailyCodingProblem.dir/longestPathWeightTree.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\longestPathWeightTree.cpp > CMakeFiles\DailyCodingProblem.dir\longestPathWeightTree.cpp.i
+
+CMakeFiles/DailyCodingProblem.dir/longestPathWeightTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DailyCodingProblem.dir/longestPathWeightTree.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\longestPathWeightTree.cpp -o CMakeFiles\DailyCodingProblem.dir\longestPathWeightTree.cpp.s
 
 # Object files for target DailyCodingProblem
 DailyCodingProblem_OBJECTS = \
 "CMakeFiles/DailyCodingProblem.dir/main.cpp.obj" \
-"CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.obj"
+"CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.obj" \
+"CMakeFiles/DailyCodingProblem.dir/longestPathWeightTree.cpp.obj"
 
 # External object files for target DailyCodingProblem
 DailyCodingProblem_EXTERNAL_OBJECTS =
 
 DailyCodingProblem.exe: CMakeFiles/DailyCodingProblem.dir/main.cpp.obj
-DailyCodingProblem.exe: CMakeFiles/DailyCodingProblem.dir/reachNumber.cpp.obj
+DailyCodingProblem.exe: CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.obj
+DailyCodingProblem.exe: CMakeFiles/DailyCodingProblem.dir/longestPathWeightTree.cpp.obj
 DailyCodingProblem.exe: CMakeFiles/DailyCodingProblem.dir/build.make
 DailyCodingProblem.exe: CMakeFiles/DailyCodingProblem.dir/linklibs.rsp
 DailyCodingProblem.exe: CMakeFiles/DailyCodingProblem.dir/objects1.rsp
 DailyCodingProblem.exe: CMakeFiles/DailyCodingProblem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DailyCodingProblem.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\chris\OneDrive\Documents\GitHub\DailyStudyAlgorithms\DailyCodingProblem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DailyCodingProblem.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DailyCodingProblem.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

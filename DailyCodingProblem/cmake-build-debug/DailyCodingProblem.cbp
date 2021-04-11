@@ -185,6 +185,48 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="findDeepestBT">
+				<Option output="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/findDeepestBT.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 findDeepestBT"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="findDeepestBT/fast">
+				<Option output="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/findDeepestBT.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 findDeepestBT/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="isSubtree">
 				<Option output="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/isSubtree.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug"/>
@@ -311,6 +353,90 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="findDeepestBTLeft">
+				<Option output="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/findDeepestBTLeft.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 findDeepestBTLeft"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="findDeepestBTLeft/fast">
+				<Option output="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/findDeepestBTLeft.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 findDeepestBTLeft/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="longestPathWeightTree">
+				<Option output="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/longestPathWeightTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestPathWeightTree"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="longestPathWeightTree/fast">
+				<Option output="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/longestPathWeightTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 longestPathWeightTree/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug"/>
 				<Option type="4"/>
@@ -335,8 +461,19 @@
 		<Unit filename="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/TowerOfHanoi.cpp">
 			<Option target="TowerOfHanoi"/>
 		</Unit>
+		<Unit filename="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/findDeepestBT.cpp">
+			<Option target="findDeepestBT"/>
+		</Unit>
+		<Unit filename="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/findDeepestBTLeft.cpp">
+			<Option target="DailyCodingProblem"/>
+			<Option target="findDeepestBTLeft"/>
+		</Unit>
 		<Unit filename="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/isSubtree.cpp">
 			<Option target="isSubtree"/>
+		</Unit>
+		<Unit filename="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/longestPathWeightTree.cpp">
+			<Option target="DailyCodingProblem"/>
+			<Option target="longestPathWeightTree"/>
 		</Unit>
 		<Unit filename="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/main.cpp">
 			<Option target="DailyCodingProblem"/>
@@ -348,7 +485,6 @@
 			<Option target="nextPermutaton"/>
 		</Unit>
 		<Unit filename="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/reachNumber.cpp">
-			<Option target="DailyCodingProblem"/>
 			<Option target="reachNumber"/>
 		</Unit>
 		<Unit filename="C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/sortedSquares.cpp">
