@@ -14,3 +14,5 @@ add_executable(findDeepestBT findDeepestBT.cpp)
 add_executable(findDeepestBTLeft findDeepestBTLeft.cpp)
 add_executable(longestPathWeightTree longestPathWeightTree.cpp)
 add_executable(maxTripleProduct maxTripleProduct.cpp)
+add_executable(largestRectangleHist largestRectangleHist.cpp)
+

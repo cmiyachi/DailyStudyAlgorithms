@@ -291,7 +291,7 @@ int main()
         else
             cout << "Maximum product is " << max << endl;
 
-        cout << "---------------------------------------" << endl; 
+        cout << "---------------------------------------" << endl;
     }
 	return 0;
 }

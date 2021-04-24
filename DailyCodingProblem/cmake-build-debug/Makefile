@@ -271,6 +271,19 @@ maxTripleProduct/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxTripleProduct.dir\build.make CMakeFiles/maxTripleProduct.dir/build
 .PHONY : maxTripleProduct/fast
 
+#=============================================================================
+# Target rules for targets named largestRectangleHist
+
+# Build rule for target.
+largestRectangleHist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 largestRectangleHist
+.PHONY : largestRectangleHist
+
+# fast build rule for target.
+largestRectangleHist/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\largestRectangleHist.dir\build.make CMakeFiles/largestRectangleHist.dir/build
+.PHONY : largestRectangleHist/fast
+
 TowerOfHanoi.obj: TowerOfHanoi.cpp.obj
 
 .PHONY : TowerOfHanoi.obj
@@ -381,6 +394,33 @@ isSubtree.s: isSubtree.cpp.s
 isSubtree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSubtree.dir\build.make CMakeFiles/isSubtree.dir/isSubtree.cpp.s
 .PHONY : isSubtree.cpp.s
+
+largestRectangleHist.obj: largestRectangleHist.cpp.obj
+
+.PHONY : largestRectangleHist.obj
+
+# target to build an object file
+largestRectangleHist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\largestRectangleHist.dir\build.make CMakeFiles/largestRectangleHist.dir/largestRectangleHist.cpp.obj
+.PHONY : largestRectangleHist.cpp.obj
+
+largestRectangleHist.i: largestRectangleHist.cpp.i
+
+.PHONY : largestRectangleHist.i
+
+# target to preprocess a source file
+largestRectangleHist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\largestRectangleHist.dir\build.make CMakeFiles/largestRectangleHist.dir/largestRectangleHist.cpp.i
+.PHONY : largestRectangleHist.cpp.i
+
+largestRectangleHist.s: largestRectangleHist.cpp.s
+
+.PHONY : largestRectangleHist.s
+
+# target to generate assembly for a file
+largestRectangleHist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\largestRectangleHist.dir\build.make CMakeFiles/largestRectangleHist.dir/largestRectangleHist.cpp.s
+.PHONY : largestRectangleHist.cpp.s
 
 longestPathWeightTree.obj: longestPathWeightTree.cpp.obj
 
@@ -587,6 +627,7 @@ help:
 	@echo ... findDeepestBT
 	@echo ... findDeepestBTLeft
 	@echo ... isSubtree
+	@echo ... largestRectangleHist
 	@echo ... longestPathWeightTree
 	@echo ... maxTripleProduct
 	@echo ... minAndMax
@@ -605,6 +646,9 @@ help:
 	@echo ... isSubtree.obj
 	@echo ... isSubtree.i
 	@echo ... isSubtree.s
+	@echo ... largestRectangleHist.obj
+	@echo ... largestRectangleHist.i
+	@echo ... largestRectangleHist.s
 	@echo ... longestPathWeightTree.obj
 	@echo ... longestPathWeightTree.i
 	@echo ... longestPathWeightTree.s

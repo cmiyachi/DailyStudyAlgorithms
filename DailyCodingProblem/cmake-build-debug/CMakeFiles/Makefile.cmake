@@ -62,4 +62,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/findDeepestBTLeft.dir/DependInfo.cmake"
   "CMakeFiles/longestPathWeightTree.dir/DependInfo.cmake"
   "CMakeFiles/maxTripleProduct.dir/DependInfo.cmake"
+  "CMakeFiles/largestRectangleHist.dir/DependInfo.cmake"
   )

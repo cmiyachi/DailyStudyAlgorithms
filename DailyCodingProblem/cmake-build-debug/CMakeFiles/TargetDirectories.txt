@@ -9,5 +9,6 @@ C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/findDeepestBTLeft.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/longestPathWeightTree.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/maxTripleProduct.dir
+C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/largestRectangleHist.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/chris/OneDrive/Documents/GitHub/DailyStudyAlgorithms/DailyCodingProblem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
