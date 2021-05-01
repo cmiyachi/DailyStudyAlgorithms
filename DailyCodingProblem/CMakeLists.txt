@@ -3,7 +3,7 @@ project(DailyCodingProblem)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DailyCodingProblem main.cpp findDeepestBTLeft.cpp longestPathWeightTree.cpp)
+add_executable(DailyCodingProblem main.cpp findDeepestBTLeft.cpp longestPathWeightTree.cpp impossibleSum.cpp)
 add_executable(sortedSquares sortedSquares.cpp)
 add_executable(minAndMax minAndMax.cpp)
 add_executable(isSubtree isSubtree.cpp)
@@ -15,4 +15,5 @@ add_executable(findDeepestBTLeft findDeepestBTLeft.cpp)
 add_executable(longestPathWeightTree longestPathWeightTree.cpp)
 add_executable(maxTripleProduct maxTripleProduct.cpp)
 add_executable(largestRectangleHist largestRectangleHist.cpp)
-
+add_executable(stepWordAnna stepWordAnna.cpp)
+add_executable(impossibleSum impossibleSum.cpp)

@@ -63,4 +63,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/longestPathWeightTree.dir/DependInfo.cmake"
   "CMakeFiles/maxTripleProduct.dir/DependInfo.cmake"
   "CMakeFiles/largestRectangleHist.dir/DependInfo.cmake"
+  "CMakeFiles/stepWordAnna.dir/DependInfo.cmake"
+  "CMakeFiles/impossibleSum.dir/DependInfo.cmake"
   )

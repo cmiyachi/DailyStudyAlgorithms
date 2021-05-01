@@ -284,6 +284,32 @@ largestRectangleHist/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\largestRectangleHist.dir\build.make CMakeFiles/largestRectangleHist.dir/build
 .PHONY : largestRectangleHist/fast
 
+#=============================================================================
+# Target rules for targets named stepWordAnna
+
+# Build rule for target.
+stepWordAnna: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stepWordAnna
+.PHONY : stepWordAnna
+
+# fast build rule for target.
+stepWordAnna/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stepWordAnna.dir\build.make CMakeFiles/stepWordAnna.dir/build
+.PHONY : stepWordAnna/fast
+
+#=============================================================================
+# Target rules for targets named impossibleSum
+
+# Build rule for target.
+impossibleSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 impossibleSum
+.PHONY : impossibleSum
+
+# fast build rule for target.
+impossibleSum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\impossibleSum.dir\build.make CMakeFiles/impossibleSum.dir/build
+.PHONY : impossibleSum/fast
+
 TowerOfHanoi.obj: TowerOfHanoi.cpp.obj
 
 .PHONY : TowerOfHanoi.obj
@@ -367,6 +393,36 @@ findDeepestBTLeft.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\findDeepestBTLeft.dir\build.make CMakeFiles/findDeepestBTLeft.dir/findDeepestBTLeft.cpp.s
 .PHONY : findDeepestBTLeft.cpp.s
+
+impossibleSum.obj: impossibleSum.cpp.obj
+
+.PHONY : impossibleSum.obj
+
+# target to build an object file
+impossibleSum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/impossibleSum.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\impossibleSum.dir\build.make CMakeFiles/impossibleSum.dir/impossibleSum.cpp.obj
+.PHONY : impossibleSum.cpp.obj
+
+impossibleSum.i: impossibleSum.cpp.i
+
+.PHONY : impossibleSum.i
+
+# target to preprocess a source file
+impossibleSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/impossibleSum.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\impossibleSum.dir\build.make CMakeFiles/impossibleSum.dir/impossibleSum.cpp.i
+.PHONY : impossibleSum.cpp.i
+
+impossibleSum.s: impossibleSum.cpp.s
+
+.PHONY : impossibleSum.s
+
+# target to generate assembly for a file
+impossibleSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/impossibleSum.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\impossibleSum.dir\build.make CMakeFiles/impossibleSum.dir/impossibleSum.cpp.s
+.PHONY : impossibleSum.cpp.s
 
 isSubtree.obj: isSubtree.cpp.obj
 
@@ -614,6 +670,33 @@ sortedSquares.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortedSquares.dir\build.make CMakeFiles/sortedSquares.dir/sortedSquares.cpp.s
 .PHONY : sortedSquares.cpp.s
 
+stepWordAnna.obj: stepWordAnna.cpp.obj
+
+.PHONY : stepWordAnna.obj
+
+# target to build an object file
+stepWordAnna.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stepWordAnna.dir\build.make CMakeFiles/stepWordAnna.dir/stepWordAnna.cpp.obj
+.PHONY : stepWordAnna.cpp.obj
+
+stepWordAnna.i: stepWordAnna.cpp.i
+
+.PHONY : stepWordAnna.i
+
+# target to preprocess a source file
+stepWordAnna.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stepWordAnna.dir\build.make CMakeFiles/stepWordAnna.dir/stepWordAnna.cpp.i
+.PHONY : stepWordAnna.cpp.i
+
+stepWordAnna.s: stepWordAnna.cpp.s
+
+.PHONY : stepWordAnna.s
+
+# target to generate assembly for a file
+stepWordAnna.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stepWordAnna.dir\build.make CMakeFiles/stepWordAnna.dir/stepWordAnna.cpp.s
+.PHONY : stepWordAnna.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -626,6 +709,7 @@ help:
 	@echo ... TowerOfHanoi
 	@echo ... findDeepestBT
 	@echo ... findDeepestBTLeft
+	@echo ... impossibleSum
 	@echo ... isSubtree
 	@echo ... largestRectangleHist
 	@echo ... longestPathWeightTree
@@ -634,6 +718,7 @@ help:
 	@echo ... nextPermutaton
 	@echo ... reachNumber
 	@echo ... sortedSquares
+	@echo ... stepWordAnna
 	@echo ... TowerOfHanoi.obj
 	@echo ... TowerOfHanoi.i
 	@echo ... TowerOfHanoi.s
@@ -643,6 +728,9 @@ help:
 	@echo ... findDeepestBTLeft.obj
 	@echo ... findDeepestBTLeft.i
 	@echo ... findDeepestBTLeft.s
+	@echo ... impossibleSum.obj
+	@echo ... impossibleSum.i
+	@echo ... impossibleSum.s
 	@echo ... isSubtree.obj
 	@echo ... isSubtree.i
 	@echo ... isSubtree.s
@@ -670,6 +758,9 @@ help:
 	@echo ... sortedSquares.obj
 	@echo ... sortedSquares.i
 	@echo ... sortedSquares.s
+	@echo ... stepWordAnna.obj
+	@echo ... stepWordAnna.i
+	@echo ... stepWordAnna.s
 .PHONY : help
 
 
