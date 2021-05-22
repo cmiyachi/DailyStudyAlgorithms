@@ -65,4 +65,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/largestRectangleHist.dir/DependInfo.cmake"
   "CMakeFiles/stepWordAnna.dir/DependInfo.cmake"
   "CMakeFiles/impossibleSum.dir/DependInfo.cmake"
+  "CMakeFiles/firstRecurringChar.dir/DependInfo.cmake"
+  "CMakeFiles/gcd.dir/DependInfo.cmake"
   )

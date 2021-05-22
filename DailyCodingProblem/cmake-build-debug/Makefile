@@ -310,6 +310,32 @@ impossibleSum/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\impossibleSum.dir\build.make CMakeFiles/impossibleSum.dir/build
 .PHONY : impossibleSum/fast
 
+#=============================================================================
+# Target rules for targets named firstRecurringChar
+
+# Build rule for target.
+firstRecurringChar: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstRecurringChar
+.PHONY : firstRecurringChar
+
+# fast build rule for target.
+firstRecurringChar/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstRecurringChar.dir\build.make CMakeFiles/firstRecurringChar.dir/build
+.PHONY : firstRecurringChar/fast
+
+#=============================================================================
+# Target rules for targets named gcd
+
+# Build rule for target.
+gcd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gcd
+.PHONY : gcd
+
+# fast build rule for target.
+gcd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gcd.dir\build.make CMakeFiles/gcd.dir/build
+.PHONY : gcd/fast
+
 TowerOfHanoi.obj: TowerOfHanoi.cpp.obj
 
 .PHONY : TowerOfHanoi.obj
@@ -393,6 +419,63 @@ findDeepestBTLeft.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/findDeepestBTLeft.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\findDeepestBTLeft.dir\build.make CMakeFiles/findDeepestBTLeft.dir/findDeepestBTLeft.cpp.s
 .PHONY : findDeepestBTLeft.cpp.s
+
+firstRecurringChar.obj: firstRecurringChar.cpp.obj
+
+.PHONY : firstRecurringChar.obj
+
+# target to build an object file
+firstRecurringChar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/firstRecurringChar.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstRecurringChar.dir\build.make CMakeFiles/firstRecurringChar.dir/firstRecurringChar.cpp.obj
+.PHONY : firstRecurringChar.cpp.obj
+
+firstRecurringChar.i: firstRecurringChar.cpp.i
+
+.PHONY : firstRecurringChar.i
+
+# target to preprocess a source file
+firstRecurringChar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/firstRecurringChar.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstRecurringChar.dir\build.make CMakeFiles/firstRecurringChar.dir/firstRecurringChar.cpp.i
+.PHONY : firstRecurringChar.cpp.i
+
+firstRecurringChar.s: firstRecurringChar.cpp.s
+
+.PHONY : firstRecurringChar.s
+
+# target to generate assembly for a file
+firstRecurringChar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DailyCodingProblem.dir\build.make CMakeFiles/DailyCodingProblem.dir/firstRecurringChar.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstRecurringChar.dir\build.make CMakeFiles/firstRecurringChar.dir/firstRecurringChar.cpp.s
+.PHONY : firstRecurringChar.cpp.s
+
+gcd.obj: gcd.cpp.obj
+
+.PHONY : gcd.obj
+
+# target to build an object file
+gcd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gcd.dir\build.make CMakeFiles/gcd.dir/gcd.cpp.obj
+.PHONY : gcd.cpp.obj
+
+gcd.i: gcd.cpp.i
+
+.PHONY : gcd.i
+
+# target to preprocess a source file
+gcd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gcd.dir\build.make CMakeFiles/gcd.dir/gcd.cpp.i
+.PHONY : gcd.cpp.i
+
+gcd.s: gcd.cpp.s
+
+.PHONY : gcd.s
+
+# target to generate assembly for a file
+gcd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gcd.dir\build.make CMakeFiles/gcd.dir/gcd.cpp.s
+.PHONY : gcd.cpp.s
 
 impossibleSum.obj: impossibleSum.cpp.obj
 
@@ -709,6 +792,8 @@ help:
 	@echo ... TowerOfHanoi
 	@echo ... findDeepestBT
 	@echo ... findDeepestBTLeft
+	@echo ... firstRecurringChar
+	@echo ... gcd
 	@echo ... impossibleSum
 	@echo ... isSubtree
 	@echo ... largestRectangleHist
@@ -728,6 +813,12 @@ help:
 	@echo ... findDeepestBTLeft.obj
 	@echo ... findDeepestBTLeft.i
 	@echo ... findDeepestBTLeft.s
+	@echo ... firstRecurringChar.obj
+	@echo ... firstRecurringChar.i
+	@echo ... firstRecurringChar.s
+	@echo ... gcd.obj
+	@echo ... gcd.i
+	@echo ... gcd.s
 	@echo ... impossibleSum.obj
 	@echo ... impossibleSum.i
 	@echo ... impossibleSum.s
